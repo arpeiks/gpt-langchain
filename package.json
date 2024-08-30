@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@langchain/community": "^0.2.31",
+    "@langchain/core": "0.2.31",
+    "@langchain/openai": "^0.2.8",
+    "@langchain/pinecone": "^0.0.9",
+    "@pinecone-database/pinecone": "^3.0.2",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.17",
+    "pdf-parse": "^1.1.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@langchain/core": "0.2.31"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
